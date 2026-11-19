@@ -1,0 +1,127 @@
+[ {
+  "login" : "Max",
+  "password" : "Max",
+  "wallet" : {
+    "transactions" : [ {
+      "type" : "INCOME",
+      "amount" : 100000,
+      "date" : [ 2026, 11, 19 ],
+      "description" : "Зарплата",
+      "category" : {
+        "name" : "Работа",
+        "type" : "INCOME"
+      }
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 15000,
+      "date" : [ 2026, 11, 19 ],
+      "description" : "Покупки",
+      "category" : {
+        "name" : "Продукты",
+        "type" : "EXPENSE"
+      }
+    }, {
+      "type" : "INCOME",
+      "amount" : 13000,
+      "date" : [ 2026, 10, 12 ],
+      "description" : "Починил ПК",
+      "category" : {
+        "name" : "Шабашка",
+        "type" : "INCOME"
+      }
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 18000,
+      "date" : [ 2026, 11, 17 ],
+      "description" : "Озончик",
+      "category" : {
+        "name" : "Машина",
+        "type" : "EXPENSE"
+      }
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 27000,
+      "date" : [ 2026, 10, 30 ],
+      "description" : "Ипотека 4/1000",
+      "category" : {
+        "name" : "Ипотека",
+        "type" : "EXPENSE"
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Работа",
+      "type" : "INCOME"
+    }, {
+      "name" : "Продукты",
+      "type" : "EXPENSE"
+    }, {
+      "name" : "Шабашка",
+      "type" : "INCOME"
+    }, {
+      "name" : "Ипотека",
+      "type" : "EXPENSE"
+    }, {
+      "name" : "Машина",
+      "type" : "EXPENSE"
+    } ],
+    "budgets" : [ {
+      "limit" : 15000,
+      "category" : {
+        "name" : "Машина",
+        "type" : "EXPENSE"
+      }
+    } ]
+  }
+}, {
+  "login" : "Oleg",
+  "password" : "Oleg",
+  "wallet" : {
+    "transactions" : [ ],
+    "categories" : [ ],
+    "budgets" : [ ]
+  }
+}, {
+  "login" : "Igor",
+  "password" : "Igor",
+  "wallet" : {
+    "transactions" : [ {
+      "type" : "INCOME",
+      "amount" : 4000,
+      "date" : [ 1111, 11, 11 ],
+      "description" : "поменял лампочку",
+      "category" : {
+        "name" : "Халтурка",
+        "type" : "INCOME"
+      }
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 2500,
+      "date" : [ 1111, 11, 11 ],
+      "description" : "диск для ps5",
+      "category" : {
+        "name" : "Развлечения",
+        "type" : "EXPENSE"
+      }
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 1200,
+      "date" : [ 1111, 11, 11 ],
+      "description" : "Коммуналка",
+      "category" : {
+        "name" : "Жилье",
+        "type" : "EXPENSE"
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Развлечения",
+      "type" : "EXPENSE"
+    }, {
+      "name" : "Халтурка",
+      "type" : "INCOME"
+    }, {
+      "name" : "Жилье",
+      "type" : "EXPENSE"
+    } ],
+    "budgets" : [ ]
+  }
+} ]
